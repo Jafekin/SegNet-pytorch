@@ -1,0 +1,15 @@
+评价日期：Sat Dec 28 12:41:37 2024
+使用的权重：weights/SegNet_weights.pth
+mIoU: 0.2153
+评价日期：Sat Dec 28 12:43:10 2024
+使用的权重：weights/SegNet_weights.pth
+mIoU: 0.7534
+评价日期：Sat Dec 28 12:44:29 2024
+使用的权重：weights/SegNet_weights.pth
+mIoU: 0.7534
+评价日期：Sat Dec 28 16:31:21 2024
+使用的权重：weights/SegNet_weights1.pth
+mIoU: 0.7534
+评价日期：Sat Dec 28 16:32:41 2024
+使用的权重：weights/SegNet_weights1.pth
+mIoU: 0.7534
