@@ -1,7 +1,5 @@
 # 基于SegNet的城市交通图像语义分割多分类网络
 
-<center>陈佳辉（02） 陈奕岐（02） 任思羽（04）</center>
-
 ## 实验简介
 
 Cityscapes 是一个广泛用于计算机视觉领域的高质量数据集，专注于城市环境中的语义理解任务，特别是在自动驾驶和智能交通系统的研究中具有重要的应用价值。该数据集包含高分辨率的城市街景图像以及像素级精确标注，主要用于语义分割、实例分割、目标检测和场景理解等任务。Cityscapes 的数据采集覆盖了 50 座欧洲城市，涵盖不同的天气、季节和光照条件，以确保数据的多样性和模型的泛化能力。
@@ -27,7 +25,7 @@ SegNet 的编码器部分借鉴了 VGG16 网络的前 13 层卷积网络，用�
 
 首先在cityscapesscripts里的**label**文件里选好要用的分类，原始分类给的19类。在不感兴趣的类别`trainid`那栏改为-1（网络上查询的资料均为改为255，实际测试时会作为255类参与训练）、不感兴趣的`ignoreInEval`改为True， 然后重新按顺序将感兴趣的分类进行排序， 如下图：
 
-![image-20241230015053504](/Users/jafekin/Library/Application Support/typora-user-images/image-20241230015053504.png)
+![image-20241230015053504](https://cdn.jsdelivr.net/gh/Jafekin/markdown_images@main/img/image-20241230015053504.png)
 
 最后使用cityscapesscripts里的**createlabelidimg**脚本将json文件生成trainid.png文件。
 
